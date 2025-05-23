@@ -1,0 +1,14 @@
+name : Afroj Alam
+
+on:
+    push:
+      branches: [ main ]
+
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: Greetings
+      run: echo "Heloo From Afroj" 
